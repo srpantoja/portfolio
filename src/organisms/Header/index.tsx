@@ -1,7 +1,6 @@
 import * as HStyle from "./style"
 import Logo from "../../molecules/Logo"
-import Menu from "../../molecules/Menu"
-import Button from "../../atoms/Button"
+import Menu from "../Menu"
 
 const Header = () => {
     return (

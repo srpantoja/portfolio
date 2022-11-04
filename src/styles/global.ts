@@ -9,15 +9,19 @@ const globalStyle = createGlobalStyle`
     }
 
     h1, h4 {
-        color: #EEE9DB;
+        color: #FFF;
+        
     }
 
     html, body{
         height: 100%;
+        scroll-behavior: smooth;
     }
-
+    span {
+        padding-top: 50px;
+    }
     body {
-        background: #3D3D3D;
+        background: radial-gradient(circle at center, #201D47 , #17153A);
         font-family: 'Poppins', sans-serif;
     }
 
