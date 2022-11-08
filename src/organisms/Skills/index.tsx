@@ -4,7 +4,7 @@ import AutomatedTest from "../../molecules/AutomatedTest"
 import GameDeveloper from "../../molecules/GameDeveloper"
 const Skills = () => {
     return (
-        <SStyle.Main id="Habilidades">
+        <SStyle.Main id="habilidades">
             <h1>Habilidades</h1>
             <SStyle.Container>
                 <SStyle.SkillContainer>

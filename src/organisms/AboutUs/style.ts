@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const ContainerAboutUS = styled.div`
-    margin-top: 100px;
     padding-top: 100px;
     display: flex;
     flex-direction: row;

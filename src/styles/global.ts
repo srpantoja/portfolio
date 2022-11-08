@@ -8,7 +8,7 @@ const globalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    h1, h4 {
+    h1, h2, h4, h5, h6, ul {
         color: #FFF;
         
     }
@@ -17,11 +17,17 @@ const globalStyle = createGlobalStyle`
         height: 100%;
         scroll-behavior: smooth;
     }
+
+    ul {
+        list-style: none;
+    }
+
     span {
         padding-top: 50px;
     }
+    
     body {
-        background: radial-gradient(circle at center, #201D47 , #17153A);
+        background: radial-gradient(circle at center, #201D57 , #17153A);
         font-family: 'Poppins', sans-serif;
     }
 

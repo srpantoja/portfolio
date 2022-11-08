@@ -5,6 +5,7 @@ export const ContainerHome = styled.div`
     display: flex;
     flex-direction: row;
     padding-top: 30px;
+    height: 100vh;
     > div {
         width: 50%;
         > div {
